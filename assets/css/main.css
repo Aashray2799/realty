@@ -1695,5 +1695,34 @@ input, select, textarea {
 			text-align: center;
 			margin-top: 10px;
 		}
+/* Property Management Services Section */
+#property-management {
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px; /* Spacing around the content */
+    margin: 20px 0; /* Spacing from other sections */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#property-management h2 {
+    color: #333; /* Title color */
+    font-size: 24px; /* Font size for the title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+#property-management p {
+    line-height: 1.6; /* Improve readability */
+    color: #666; /* Text color */
+    font-size: 16px; /* Font size for paragraphs */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+#property-management .image.main {
+    display: block; /* Make the image a block element */
+    margin: 0 auto 15px; /* Center image and add space below */
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
 		
 		
