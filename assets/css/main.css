@@ -1696,33 +1696,38 @@ input, select, textarea {
 			margin-top: 10px;
 		}
 /* Property Management Services Section */
-#property-management {
-    background-color: #f9f9f9; /* Light background */
-    padding: 20px; /* Spacing around the content */
-    margin: 20px 0; /* Spacing from other sections */
-    border: 1px solid #ccc; /* Optional border */
-    border-radius: 5px; /* Rounded corners */
+/* Adjust styling for the property management services page */
+#property-management-services {
+    display: block; /* Make sure it's visible */
+    opacity: 1; /* Fully visible */
+    visibility: visible; /* Ensure it's visible */
+    position: relative; /* Ensure proper positioning */
+    z-index: 4; /* Above other elements */
+    padding: 20px; /* Add padding */
+    background-color: white; /* Background color */
 }
 
-#property-management h2 {
-    color: #333; /* Title color */
-    font-size: 24px; /* Font size for the title */
-    margin-bottom: 15px; /* Space below the title */
+/* Modify background overlays */
+#bg:before,
+#bg:after {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background */
 }
 
-#property-management p {
-    line-height: 1.6; /* Improve readability */
-    color: #666; /* Text color */
-    font-size: 16px; /* Font size for paragraphs */
-    margin-bottom: 10px; /* Space between paragraphs */
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    #property-management-services {
+        padding: 15px; /* Adjust for smaller screens */
+        font-size: 14px; /* Smaller font size */
+    }
 }
 
-#property-management .image.main {
-    display: block; /* Make the image a block element */
-    margin: 0 auto 15px; /* Center image and add space below */
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
+/* Clear floats if necessary */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
 
 		
 		
